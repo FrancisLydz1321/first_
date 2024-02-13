@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             primaryColor: Colors.purple[900]), // theme is under MaterialApp()
         home: Scaffold(
-            appBar: AppBar(title: Text('WordPair Generator')),
+            appBar:
+                AppBar(title: Text('WordPair Generatorasdasdasdasdadsadadads')),
             body: Center(child: Text(wordPair.asPascalCase))));
   }
 }
