@@ -5,7 +5,7 @@ void main() => runApp(
     MyApp()); // similar to es6 arrow function in javascript; void doesn't return anything or asynchronous
 
 class MyApp extends StatelessWidget {
-  // defines a class named: "MyApp" extending Statelees widget object
+  // defines a class named: "MyApp" extending Stateless widget object
   const MyApp({super.key});
 
   @override // overriding a method
